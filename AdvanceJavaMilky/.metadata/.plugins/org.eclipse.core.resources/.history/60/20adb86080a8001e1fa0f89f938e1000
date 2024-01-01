@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<!-- <h1>Welcome-h1</h1>
+<h2>Welcome-h2</h2>
+<h3>Welcome-h3</h3>
+<h4>Welcome-h4</h4>
+<h5>Welcome-h5</h5> -->
+<center>
+<h1>E-KartApplication</h1>
+<img alt="" src="images/logo.jpeg" width="40%" height="40%"><br>
+<br>
+<a href="">Home</a>
+<a href="">AboutUs</a>
+<a href="login.html">Login</a>
+<a href="">Product</a>
+<a href="register.html">Register</a>
+</center>
+</body>
+</html>
