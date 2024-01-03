@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<center>
+<h1>E-KartApplication</h1>
+<img alt="" src="images/logo.jpeg" width="300px" height="200px"><br>
+<br>
+<a href="">Home</a>
+<a href="">AboutUs</a>
+<a href="login.html">Login</a>
+<a href="">Product</a>
+<a href="register.html">Register</a>
+<h1>This is RegisterPage</h1>
+<form>
+<label>UserName</label>
+<input type="text" /><br><br>
+<label>Password</label>
+<input type="password"/>
+<label>Gender</label>
+<input type="text"/>
+<label>Address</label>
+<input type="text"/>
+<input type="submit" value="Login"/>
+</form>
+</center>
+</body>
+</html>
