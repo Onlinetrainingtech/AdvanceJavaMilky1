@@ -1,7 +1,4 @@
 INDEX VERSION 1.4+D:\OnlineTraning\AdvanceJavaMilky1\AdvanceJavaMilky\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-2899076046.index
-1406146961.index
-3383309139.index
-2957994635.index
+4173535536.index
 3140998684.index
-2218431055.index
+1246110002.index
