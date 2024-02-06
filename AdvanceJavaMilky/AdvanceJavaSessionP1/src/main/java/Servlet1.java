@@ -6,6 +6,7 @@ import java.io.PrintWriter;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -32,7 +33,12 @@ public class Servlet1 extends HttpServlet
 		}
 		else
 		{
-			out.println("Session is not Created..");
+			//out.println("Session is not Created..");
+			Cookie ck=new Cookie("u1",uname);
+			resp.addCookie(ck);
+			System.out.println(ck);
+			RequestDispatcher rd=req.getRequestDispatcher("Servlet3");
+			rd.forward(req, resp);
 		}
 	}
 }
